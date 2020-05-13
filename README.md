@@ -1,7 +1,7 @@
 CPSC353_Project
 ===============
 
-# Authors: Brent Jang, Alberto Chi Kan Ng
+Authors: Brent Jang, Alberto Chi Kan Ng
 
 In order to build and run the code:
 
