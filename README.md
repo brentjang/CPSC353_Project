@@ -1,24 +1,26 @@
-# CPSC353_Project
-Authors: Brent Jang, Alberto Chi Kan Ng
+CPSC353_Project
+===============
+
+#Authors: Brent Jang, Alberto Chi Kan Ng
 
 In order to build and run the code:
 
-1. clone_repo.py
+1. **clone_repo.py**
 Change all "paths" to user preference.
 Install dependencies.
 Run.
 
-2. got3_pull.py
+2. **got3_pull.py**
 Change output path.
 Install dependencies.
 Run.
 
-3. twitter_api_pull.py (pending)
+3. **twitter_api_pull.py**
 Install dependencies.
 Input API authorization.
 Run.
 
-4. twitter_sentiment.py
+4. **twitter_sentiment.py**
 Install dependencies.
 Change paths to .csv file.
 
