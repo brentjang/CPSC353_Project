@@ -10,4 +10,4 @@ My contributions:
 
 4. Pulling COVID-19 data for data analysis.
 
-5. Using the sentimental analysis model and relate back to our topic.
+5. Using the sentimental analysis model and relate back to our topic. 
