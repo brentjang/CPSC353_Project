@@ -35,19 +35,19 @@ for i in range(0, len(date_range)-1):
                                                .setMaxTweets(1000)
     list_tweets = got.manager.TweetManager.getTweets(tweetCriteria)
 
-    
+
     for tweet in list_tweets:
-        data = {'created_at':[tweet.date], 
-                'id':[tweet.id], 
-                'text':[tweet.text], 
+        data = {'created_at':[tweet.date],
+                'id':[tweet.id],
+                'text':[tweet.text],
                 'retweet_count':[tweet.retweets],
-                'favorite_count':[tweet.favorites], 
-                'user':[tweet.username], 
+                'favorite_count':[tweet.favorites],
+                'user':[tweet.username],
                 'location':[tweet.geo]}
         new_df = pd.DataFrame(data)
         tweet_full = tweet_full.append(new_df)
-    
+
     time.sleep(60 * 5)
-    
-path = "/Users/brento/Desktop/twitter.csv"
+
+path = "/path/to/output/twitter.csv"
 tweet_full.to_csv(r''+path, index = False)

@@ -1,0 +1,4 @@
+gitpython
+pandas
+GetOldTweets3
+textblob
