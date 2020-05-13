@@ -15,7 +15,7 @@ Change output path.
 Install dependencies.
 Run.
 
-3. **twitter_api_pull.py**
+3. **twitter_api_pull.py (unused)**
 Install dependencies.
 Input API authorization.
 Run.
